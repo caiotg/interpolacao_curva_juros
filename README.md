@@ -11,6 +11,6 @@ Existem várias abordagens para a interpolação de curva de juros, sendo as mai
 
 # Observações sobre o Código
 
-* Para fazer a interpolação da curva de juros é preciso ter os vértices (dias uteis) entre a data atual e a data da expectativa;
+* Para fazer a interpolação da curva de juros é preciso ter os vértices (dias uteis) entre a data atual e a data da expectativa. para isso é preciso criar uma lista com os dias úteis;
 * Eu utilizo a interpolação cúbica por ela gerar estimativas mais suaves que a interpolação linear;
 * Para fazer uma estimativa mais precisa é possível utilizar a lista de feriados nacionais ao invés de BDay() do pandas.
